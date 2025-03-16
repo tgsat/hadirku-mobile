@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hadirku_mobile/utils/utils.dart';
 
+import 'binding/general_binding.dart';
+
 class App extends StatelessWidget {
   const App({super.key});
 
@@ -11,7 +13,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      // initialBinding: GeneralBindings(),
+      initialBinding: GeneralBindings(),
       getPages: AppRoutes.pages,
       home: const Scaffold(
           backgroundColor: AppColor.primary,

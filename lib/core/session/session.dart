@@ -1,9 +1,24 @@
+import 'package:get/get_rx/get_rx.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Session {
   static Future<SharedPreferences> getInstance() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     return prefs;
+  }
+
+  static Future<void> loadStoredData(RxString server, RxString token, RxInt employeeId) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    server.value = prefs.getString("typed_url") ?? "";
+    token.value = prefs.getString("token") ?? "";
+    employeeId.value = prefs.getInt("employee_id") ?? 0;
+  }
+
+  static Future<void> saveAuthData(String server, String token, int employeeId) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.setString("typed_url", server);
+    await prefs.setString("token", token);
+    await prefs.setInt("employee_id", employeeId);
   }
 
   static Future<void> clear() async {

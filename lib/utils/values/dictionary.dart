@@ -46,6 +46,7 @@ class Dictionary {
   static const String failedLoadEmployeeData = "Gagal memuat data karyawan";
   /// G
   /// H
+  static const String home = "Dasbor";
   /// I
   static const String invalidServerAddress = "Alamat server yang Kamu masukan tidak valid";
   static const String invalidEmailAndPassword = "Alamat Email dan Kata Sandi yang Kamu masukan tidak valid";
@@ -76,6 +77,7 @@ class Dictionary {
   static const String overtime = "Lembur";
   /// P
   static const String password = "Kata Sandi";
+  static const String profile = "Profil";
   static const String previousWorkType = "Jenis Pekerjaan Sebelumnya";
   static const String previousCurrentWorkType = "Jenis Pekerjaan Sebelumnya/Saat Ini";
   static const String pleaseSelectStartDate = "Silakan pilih tanggal mulai";

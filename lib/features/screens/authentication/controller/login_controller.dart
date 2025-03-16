@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:hadirku_mobile/utils/utils.dart';
 
 import '../../../../core/repositories/auth/auth_repository.dart';
+import '../../../../navigation_menu.dart';
 
 class LoginController extends GetxController {
   final hidePassword = true.obs;
@@ -31,8 +32,7 @@ class LoginController extends GetxController {
       await AuthenticationRepository.instance
           .loginWithEmailPassword(server.text.trim(), email.text.trim(), password.text.trim());
 
-      // Get.offAll(() => const NavigationMenu());
-      Get.offAll(() => Container());
+      Get.offAll(() => const NavigationMenu());
     } catch (e) {
       Loaders.errorSnackBar(title: Dictionary.oops, message: e.toString());
     }

@@ -8,6 +8,7 @@ class AppIcons {
   // A
   static const IconData add = Iconsax.add;
   static const IconData address = Iconsax.shop4;
+  static const IconData attendance = Iconsax.clock;
   static const IconData arrowLeft = Iconsax.arrow_left;
   static const IconData arrowRight = Iconsax.arrow_right_34;
   // B
