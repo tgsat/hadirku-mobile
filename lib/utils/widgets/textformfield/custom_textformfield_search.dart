@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class GeneralTextFormFieldSearch extends StatelessWidget {
+class CustomTextFormFieldSearch extends StatelessWidget {
   final String title;
   final TextEditingController? controller;
   final IconData? prefixIcon, suffixIcon;
   final bool isObscure, expands;
-  const GeneralTextFormFieldSearch({
+  const CustomTextFormFieldSearch({
     super.key,
     required this.title,
     this.controller,

@@ -11,11 +11,11 @@ class Dictionary {
   static const String attendanceUpdateSuccess = "Kehadiran berhasil diperbaharui";
   static const String attendanceDeleteSuccess = "Kehadiran berhasil dihapus";
   static const String attendanceValidatedSuccess = "Kehadiran berhasil divalidasi";
-  static const String areSureWantToRejectWorkTypeRequest = "Apakah Anda yakin ingin Menolak Permintaan Jenis Pekerjaan ini?";
-  static const String areSureWantToApproveWorkTypeRequest = "Apakah Anda yakin ingin Menyetujui Permintaan Jenis Pekerjaan ini?";
-  static const String areSureWantToDeleteWorkTypeRequest = "Apakah Anda yakin ingin Menghapus Permintaan Jenis Pekerjaan ini?"; 
-  static const String areSureWantToDeleteAttendance = "Apakah Anda yakin ingin Menghapus kehadiran ini?"; 
-  static const String areSureWantTovalidateAttendance = "Apakah Anda yakin ingin Memvalidasi Kehadiran ini?"; 
+  static const String areSureWantToRejectWorkTypeRequest = "Apakah Kamu yakin ingin Menolak Permintaan Jenis Pekerjaan ini?";
+  static const String areSureWantToApproveWorkTypeRequest = "Apakah Kamu yakin ingin Menyetujui Permintaan Jenis Pekerjaan ini?";
+  static const String areSureWantToDeleteWorkTypeRequest = "Apakah Kamu yakin ingin Menghapus Permintaan Jenis Pekerjaan ini?"; 
+  static const String areSureWantToDeleteAttendance = "Apakah Kamu yakin ingin Menghapus kehadiran ini?"; 
+  static const String areSureWantTovalidateAttendance = "Apakah Kamu yakin ingin Memvalidasi Kehadiran ini?"; 
   /// B
   static const String byUser = "oleh Pengguna";
   static const String basedOn = "Berdasarkan";
@@ -47,13 +47,16 @@ class Dictionary {
   /// G
   /// H
   /// I
+  static const String invalidServerAddress = "Alamat server yang Kamu masukan tidak valid";
+  static const String invalidEmailAndPassword = "Alamat Email dan Kata Sandi yang Kamu masukan tidak valid";
   static const String isPermanenetWorkType = "Merupakan jenis pekerjaan tetap";
-  static const String infoDeleteRotateShift = "Apakah Anda yakin ingin menghapus shift berputar ini?";
-  static const String infoDeleteRotatingWorkType = "Apakah Anda yakin ingin menghapus jenis pekerjaan berputar ini?";
+  static const String infoDeleteRotateShift = "Apakah Kamu yakin ingin menghapus shift berputar ini?";
+  static const String infoDeleteRotatingWorkType = "Apakah Kamu yakin ingin menghapus jenis pekerjaan berputar ini?";
   /// J
   /// K
   /// L
   static const String loading = "Loading...";
+  static const String loginTitle = "Selamat datang kembali";
   /// M
   static const String minimumHours = "Jam Minimum";
   /// N
@@ -66,7 +69,9 @@ class Dictionary {
   static const String noEmployeeFound = "Tidak ada karyawan yang ditemukan";
   static const String noEmployeeRecord = "Tidak ada catatan karyawan untuk ditampilkan";
   static const String noWorkTypeFound = "Tidak ada jenis pekerjaan ditemukan";
+  static const String noInternetConnection = "Saat ini Kamu tidak terhubung ke internet, Silakan periksa koneksi internet Kamu!";
   /// O
+  static const String oops = "Oops";
   static const String overview = "Ringkasan";
   static const String overtime = "Lembur";
   /// P
@@ -94,6 +99,8 @@ class Dictionary {
   static const String rotatingWorkType = "Jenis Pekerjaan Berputar";
   /// S
   static const String save = "Simpan";
+  static const String server = "Server";
+  static const String signIn = "Login";
   static const String shift = "Shift";
   static const String search = "Cari";
   static const String status = "Status";

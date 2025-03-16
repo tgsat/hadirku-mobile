@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hadirku_mobile/utils/utils.dart';
 
-class GeneralTextFormField extends StatelessWidget {
+class CustomTextFormField extends StatelessWidget {
   final String title;
   final TextEditingController? controller;
   final IconData? prefixIcon, suffixIcon;
@@ -14,7 +14,7 @@ class GeneralTextFormField extends StatelessWidget {
   final TextCapitalization textCapitalization;
   final AutovalidateMode? autovalidateMode;
   final Function()? onTap;
-  const GeneralTextFormField({
+  const CustomTextFormField({
     super.key,
     required this.title,
     this.controller,
